@@ -4,13 +4,61 @@ header{
     display: flex;
     justify-content: center;
 }
-/* Header div */
+
 header > div{
     height: 100%;
     width: 50%;
     padding: 2rem 0;
 }
-/* Header div h1 title */
+
 header > div > h1{
     text-align: center;
+}
+
+header > div > p{
+    margin-top: 1rem;
+    text-align: center;
+}
+/* Main */
+main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+main > div{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardContainer{
+    width: calc(100% / 3);
+    padding: 0 0.5rem;
+}
+
+.card{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1rem;
+}
+
+.card > img{
+    width: 100%;
+    display: block;
+}
+
+.name{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.role{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.cardContainer{
+    padding: 5px;
 }
